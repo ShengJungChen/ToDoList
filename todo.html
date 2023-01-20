@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>To Do App</title>
+    <link rel="stylesheet" href="dist/main.css">
+    <script async src='js/todo.js'></script>
+</head>
+
+<body>
+    <h1>To Do List</h1>
+
+    <!-- import existing to do -->
+    <div><button id="btn-import">Import To Do</button></div>
+
+    <!-- add new to do -->
+        <details class="add-todo">
+            <summary>Add New To Do</summary>
+            <div class="form">
+                <div>
+                    <label>Title</label><br>
+                    <input type="text" id="todo-title" placeholder=" New Task">
+                </div>
+                <div>
+                    <label>Description</label><br>
+                    <input type="text" id="desc" placeholder=" Description">
+                </div>
+                <div>  
+                    <label>Due Date</label><br>
+                    <input type="date" id="date">
+                </div>  
+                <div>
+                    <label>Due Time</label><br>
+                    <input type="time" id="time">
+                </div>
+                <div>
+                    <button type="button" id="btn-add">Add</button>
+                </div>
+            </div>
+        </details>
+
+    <!-- display to do  -->
+    <div id="todo-container"></div>
+</body>
+</html>

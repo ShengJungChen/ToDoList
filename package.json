@@ -1,0 +1,23 @@
+{
+  "name": "info6150_assignment6-shengjungchen",
+  "version": "1.0.0",
+  "description": "| Name | NUID | Email| | ---------- | ---------- | ---------- | | SHENG-JUNG CHEN | 002981985 | chen.shengju@northeastern.edu |",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "npx sass scss/main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2022/assignment-6-ShengJungChen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2022/assignment-6-ShengJungChen/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2022/assignment-6-ShengJungChen#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "buy milk",
+        "description": "go to stop & shop",
+        "due_date": "03-05-2022",
+        "due_time": "17:00"
+    },
+    {
+        "title" : "cancel netflix subscription",
+        "description" : "+1-234-567-8900",
+        "due_date" : "03-17-2022",
+        "due_time" : "12:00"
+    },
+    {
+        "title" : "do laundry",
+        "description" : "only wash clothes",
+        "due_date" : "03-25-2022",
+        "due_time" : "09:30"
+    }
+]
